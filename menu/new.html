@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>New Games</title>
+
+        <meta charset="utf-8" />
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="description" content="" />
+
+        <!-- Css -->
+        <link rel="stylesheet" href="/css/style.css" />
+
+        <!-- Dark Mode JS -->
+        <script src="/js/darkMode.bundle.js"></script>
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="/img/favicon.png" />
+    </head>
+
+    <body
+        class="dark:bg-jacarta-900 font-body text-jacarta-500 overflow-x-hidden"
+        itemscope
+        itemtype="http://schema.org/WebPage"
+    > 
+        <input type="hidden" id="cat" value="Car"> 
+        <!-- Header -->
+        <header class="js-page-header fixed top-0 z-20 w-full backdrop-blur transition-colors" id="load_header"></header>
+
+        <main>
+        
+        <!-- Trending Categories -->
+            <section class="py-24 relative ">
+                <div class="container">
+                    <h1 class="font-display text-jacarta-700 py-16 text-center text-4xl font-medium dark:text-white">
+                        <span
+                        class="mr-1 inline-block h-6 w-6 bg-contain bg-center text-xl"
+                        style="
+                            background-image: url(/img/26a1.png);
+                        "
+                        ></span>
+                        New Games Unblocked
+                    </h1>
+                    <!-- List game -->
+                    <div class="grid grid-cols-1 gap-[1.875rem] md:grid-cols-3 lg:grid-cols-5" id="listgame">
+                    </div>
+                </div>
+            </section>
+        <!-- end trending categories -->
+
+            <!-- Contact -->
+            <section class="dark:bg-jacarta-800 relative py-24" id="load_contact">
+            </section>
+            <!-- end Contact -->
+        </main>
+
+
+        <!-- Footer -->
+        <footer class="dark:bg-jacarta-900 page-footer bg-white" id="load_footer">
+        </footer>
+
+        <!-- JS Scripts -->
+        <script src="/js/app.bundle.js"></script>
+        <script src="/js/custom.js?v=4"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(function() {
+                /* Load file header dùng chung */
+                $("#load_header").load("/layout/header.html");
+                /* Load file footer dùng chung */
+                $("#load_footer").load("/layout/footer.html");
+                /* Load file contact dùng chung */
+                $("#load_contact").load("/layout/contact.html");
+            });
+        </script>
+    </body>
+</html>
