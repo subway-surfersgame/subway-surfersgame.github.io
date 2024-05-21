@@ -1,0 +1,107 @@
+[
+    {
+        "slug": "subway-surfers",
+        "title": "Subway Surfers",
+        "cat": "New",
+        "url": "https://szhong.4399.com/4399swf//upload_swf/ftp35/liuxinyu/20210324/jj01/index.html",
+        "img": "subway-surfers.png",
+        "order": 1
+    },
+    {
+        "slug": "run-3",
+        "title": "Run 3",
+        "cat": "New",
+        "url": "https://run3.io/run3/",
+        "img": "Run-3.jpg",
+        "order": 2
+    },
+    {
+        "slug": "smash-karts",
+        "title": "Smash Karts",
+        "cat": "New",
+        "url": "https://smashkarts.io/",
+        "img": "smash-karts.png",
+        "order": 3
+    },
+    {
+        "slug": "g-switch-3",
+        "title": "G-Switch 3",
+        "cat": "New",
+        "url": "https://www.twoplayergames.org/embed/g-switch-3",
+        "img": "G-Switch-3.png",
+        "order": 4
+    },
+    {
+        "slug": "slope-game",
+        "title": "slope-game",
+        "cat": "New",
+        "url": "https://kdata1.com/2020/05/slope/",
+        "img": "Slope-Game.jpg",
+        "order": 5
+    },
+    {
+        "slug": "house-of-hazards",
+        "title": "House Of Hazards",
+        "cat": "New",
+        "url": "https://kdata1.com/2020/10/House_of_Hazards/",
+        "img": "house-of-hazards.jpg",
+        "order": 6
+    },
+    {
+        "slug": "death-run-3D",
+        "title": "Death Run 3D",
+        "cat": "New",
+        "url": "https://kdata1.com/y8/embed.php?link=https://storage.y8.com/y8-studio/unity/joll/death_run_builds/death_run_wasm_v1/index.html?ratio_tolerant=true&w=960&h=635",
+        "img": "death-run-3d.jpg",
+        "order": 7
+    },
+    {
+        "slug": "two-punk-racing-2",
+        "title": "Two Punk Racing 2",
+        "cat": "New",
+        "url": "https://www.twoplayergames.org/embed/two-punk-racing-2",
+        "img": "Two-Punk-Racing-2.jpg",
+        "order": 8
+    },
+    {
+        "slug": "helix-jump-advance",
+        "title": "Helix Jump Advance",
+        "cat": "New",
+        "url": "https://kdata1.com/2019/03/helix-jump-advance/",
+        "img": "Helix-Jump-Advance.png",
+        "order": 9
+    },
+    {
+        "slug": "doodle-jump",
+        "title": "Doodle Jump",
+        "cat": "New",
+        "url": "https://kdata1.com/2020/02/doodle-jump-new-en-s-iga-cloud/",
+        "img": "Doodle-Jump.jpg",
+        "order": 10
+    },
+    {
+        "slug": "color-tunnel",
+        "title": "Color Tunnel",
+        "cat": "New",
+        "url": "https://f.kbhgames.com/2018/01/color-tunnel/",
+        "img": "color-tunnel.png",
+        "order": 11
+    },
+    {
+        "slug": "temple-run-2",
+        "title": "Temple Run 2",
+        "cat": "New",
+        "url": "https://archive777.com/Temple%20Run/Temple%20Run%202%20Game/",
+        "img": "Temple-Run-2.jpg",
+        "order": 12
+    },
+    {
+        "slug": "papas-freezeria",
+        "title": "Papa's Freezeria",
+        "cat": "New",
+        "url": "https://flashstorage.games/embed/papas-freezeria?",
+        "img": "Papas-Freezeria.jpg",
+        "order": 13
+    }
+
+]
