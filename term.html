@@ -32,66 +32,47 @@
 		 crossorigin="anonymous"></script>
     </head>
   </head>
+	<body id="page-top" style="background: url('images/background1.png'); background-size: cover;">
+		<!-- Navigation-->
+		<nav class="navbar navbar-expand-lg navbar-dark top-nav" id="mainNav">
+		</nav>
+        <!-- End Navigation-->
+        <div class="container">
 
-  <body
-    class="dark:bg-jacarta-900 font-body text-jacarta-500 overflow-x-hidden"
-    itemscope
-    itemtype="http://schema.org/WebPage"
-  >
-    <!-- Header -->
-    <header class="js-page-header fixed top-0 z-20 w-full backdrop-blur transition-colors" style="backdrop-filter:none" id="load_header">
-    </header>
-
-    <main>
-      <!-- Hero -->
-      <div class="relative mx-auto max-w-[90rem] py-20 md:pt-32" style="padding-top: 6rem;">
-        <div id="app-root">
-            
-            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;" id="load_svg"></svg>
-            <!-- Content game -->
-            <div style="display: contents;">
-                <article class="npmo3Vk8vdpOrUnRlo4K">
-                    <header style="">
-                        <p>General Terms Of Use For Subway Surfers</p>
+        <!-- Game infor -->
+        <section style="padding-top: 20px;" class="section-header">
+            <div class="container">
+                <div class="post-item">
+                    <div class="post-media">
+                        <div class="post-body">
+                        
+                        <h2>General Terms Of Use For Subway Surfers</h2>
 						<p>By accessing or using the site, you agree to be bound by this agreement and the terms of our privacy policy at https://subway-surfersgame.github.io/term.html which are incorporated by this reference. This agreement shall remain in full force and effect while you use any of the Subway Surfers family of sites.</p>
 						<p>Subway Surfers LLC makes no promises that our visitors’ grades will improve by the use of any of our family of sites. Subway Surfers LLC does not guarantee the accuracy of any information included in any of our family of sites, nor do we guarantee the accuracy of the information included in any of the sites we link to.</p>
 						<p>The information included in our family of sites is meant to supplement standard academic courses and classroom instruction. We are not responsible for any of the content included in any of our licensed content that is authored by people not employed by Subway Surfers LLC,such as our games at Subway Surfers is not responsible for any ads that may appear on our sites via error or malware viruses.</p>
 						<p>All materials on this site, as well as the organization and layout of the site, (except for our licensed content such as the games at https://subway-surfersgame.github.io/term.html) are owned and copyrighted by https://hillsofsteelgame.github.io LLC and may be accessed or printed for your personal non-commercial use only. Without the prior written permission of https://hillsofsteelgame.github.io LLC, you may not copy, modify, distribute or transfer any material on this site, in whole or in part.</p>
                     </div>
-                </article>
-            </div>
-        </div>
-        <div style="display: contents;">
-            <div class="sc-1ri0y0w-6 jfAzpO">
-                <div style="background-color: var(--green-7);" class="sc-1ri0y0w-7 lgEayX">
-                    <div decoding="async" class="sc-1ri0y0w-2 mvtOn"></div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- End Game infor -->
 
-    </div>
-        
-    </div>
-      <!-- end hero -->
-    </main>
-    <!-- Footer -->
-    <footer class="dark:bg-jacarta-800 page-footer bg-white" id="load_footer">
-    </footer>
-
-    <!-- JS Scripts -->
-    <script src="/js/app.bundle.js"></script>
-    <script src="/js/play.js?v=4"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        
-        $(function() {
-            /* Load file header dùng chung */
-            $("#load_header").load("/layout/header.html");
-            /* Load file footer dùng chung */
-            $("#load_footer").load("/layout/footer.html");
-            /* Load file svg dùng chung */
-            $("#load_svg").load("/layout/svg-game.html");
-        });
-    </script>
-  </body>
+        <!-- Footer -->
+        <div class="footer-copyright py-4" id="load_footer"></div>
+        <script type="text/javascript" src="js/jquery-3.6.2.min.js"></script>
+        <script type="text/javascript" src="js/lazysizes.min.js"></script>
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+        <script>
+            $(function() {
+                /* Load file Navigation dùng chung */
+                $("#mainNav").load("/layout/nav.html");
+                /* Load file footer dùng chung */
+                $("#load_footer").load("/layout/footer.html");
+            });
+        </script>
+    </body>
 </html>
